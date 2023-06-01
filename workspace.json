@@ -4,14 +4,14 @@
     "blocks": [
       {
         "type": "modBlock",
-        "id": "4(Y*(GtribdSd5H5`|ap",
-        "x": 1594,
-        "y": 196,
+        "id": "lt1{7K]GQC,]Q;Z;aD!/",
+        "x": 10,
+        "y": 10,
         "inputs": {
           "RULES": {
             "block": {
               "type": "ruleBlock",
-              "id": "+Rs5;~C(lHh/hN@7pj2p",
+              "id": "2@mbcn@LkM?a}.{3K~$R",
               "extraState": {
                 "isOngoingEvent": true
               },
@@ -24,12 +24,12 @@
                 "ACTIONS": {
                   "block": {
                     "type": "EnableDefaultScoring",
-                    "id": "`:]`/Zs%evPX`a?[p*H[",
+                    "id": "admK6/iO=oEg%G+baT`k",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
                           "type": "Boolean",
-                          "id": "OBB{ZL3x^g7gTz^hr;aI",
+                          "id": "Sv2$?w2Y%^)V~Y+r-UY=",
                           "fields": {
                             "BOOL": "FALSE"
                           }
@@ -39,12 +39,12 @@
                     "next": {
                       "block": {
                         "type": "EnableDefaultWinCondition",
-                        "id": "-ZIAg@JuZzoxC$jJPH]o",
+                        "id": "@=4rS2xOd^3@VKZxu(Z^",
                         "inputs": {
                           "VALUE-0": {
                             "block": {
                               "type": "Boolean",
-                              "id": "=Pu6{oeN`LnJve0onUsA",
+                              "id": "D|aZzfc!0K)TclCU;i*C",
                               "fields": {
                                 "BOOL": "FALSE"
                               }
@@ -54,12 +54,12 @@
                         "next": {
                           "block": {
                             "type": "SetRoundTimeLimit",
-                            "id": "n=^m8:+3CLZrTf$-;P}0",
+                            "id": "7Q/0#fSS/CJo/bi6io~K",
                             "inputs": {
                               "VALUE-0": {
                                 "block": {
                                   "type": "Number",
-                                  "id": "R|?8]~ndcy/OUQg0}6I|",
+                                  "id": "5?QSbgr6b$B!4Qd7?by[",
                                   "fields": {
                                     "NUM": 3600
                                   }
@@ -69,17 +69,17 @@
                             "next": {
                               "block": {
                                 "type": "SetGamemodeScore",
-                                "id": "!Lgiw=$Xg^uJxehK3(]D",
+                                "id": "G*Y)~E@LAv(_D}~cyY*P",
                                 "inputs": {
                                   "VALUE-0": {
                                     "block": {
                                       "type": "GetTeamId",
-                                      "id": "20zv,U6HfKQ9n34D)_=1",
+                                      "id": "Wt`i!g2P;0dI?,5`0:|,",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "Number",
-                                            "id": "4,4FRB/QCL;}5ug@11e;",
+                                            "id": "T+kqEfi0W~@Kdzc`pTP[",
                                             "fields": {
                                               "NUM": 1
                                             }
@@ -91,7 +91,7 @@
                                   "VALUE-1": {
                                     "block": {
                                       "type": "Number",
-                                      "id": "m@xbV@~Rv{RS)Hw1^A)v",
+                                      "id": "c[6GNbQCgE5}|(htIWT!",
                                       "fields": {
                                         "NUM": 500
                                       }
@@ -101,17 +101,17 @@
                                 "next": {
                                   "block": {
                                     "type": "SetGamemodeScore",
-                                    "id": "l4_Ib#%GA2m}(IS!`X.L",
+                                    "id": "?bsoQM8~]ESj?b^H1zG%",
                                     "inputs": {
                                       "VALUE-0": {
                                         "block": {
                                           "type": "GetTeamId",
-                                          "id": "O%W)`JtcZrOp#q15gRDY",
+                                          "id": "v%JmH0iC%o7jFN9@V3Xq",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "Number",
-                                                "id": "R$g5NoZ14Igm,!]YjI%t",
+                                                "id": "6EdKTv/od+{LZ)%4335H",
                                                 "fields": {
                                                   "NUM": 2
                                                 }
@@ -123,7 +123,7 @@
                                       "VALUE-1": {
                                         "block": {
                                           "type": "Number",
-                                          "id": "7~hR`cSG4EgfYh;^4:G)",
+                                          "id": "t8*W1DI_:CF)Xll~B=u}",
                                           "fields": {
                                             "NUM": 500
                                           }
@@ -133,9 +133,10 @@
                                     "next": {
                                       "block": {
                                         "type": "subroutineInstanceBlock",
-                                        "id": ".%.$@3D1Eik~zhH_b3?J",
+                                        "id": "%[xS01;9@J,fR?|)C3D3",
                                         "extraState": {
-                                          "subroutineName": "MapsSetups"
+                                          "subroutineName": "MapsSetups",
+                                          "parameters": []
                                         },
                                         "fields": {
                                           "SUBROUTINE_NAME": "MapsSetups"
@@ -143,9 +144,10 @@
                                         "next": {
                                           "block": {
                                             "type": "subroutineInstanceBlock",
-                                            "id": "[#^QC4Tto%(+Z0w!r?QL",
+                                            "id": "yyV_(?^hX`=g@OBtrea3",
                                             "extraState": {
-                                              "subroutineName": "Flag_Effects"
+                                              "subroutineName": "Flag_Effects",
+                                              "parameters": []
                                             },
                                             "fields": {
                                               "SUBROUTINE_NAME": "Flag_Effects"
@@ -168,7 +170,7 @@
               "next": {
                 "block": {
                   "type": "ruleBlock",
-                  "id": "Y()u}{(AW+$#TO*juy_E",
+                  "id": "pR,)$8vm%d6HV`yS1N]N",
                   "extraState": {
                     "isOngoingEvent": false
                   },
@@ -180,17 +182,17 @@
                     "ACTIONS": {
                       "block": {
                         "type": "SetGamemodeScore",
-                        "id": "6U%1Z0}v#+8xDAgh`/JI",
+                        "id": ".;$uNBKQWPn.2ZtLR#Nd",
                         "inputs": {
                           "VALUE-0": {
                             "block": {
                               "type": "GetTeamId",
-                              "id": "7aiE,1ex[YlWAg*VuSB?",
+                              "id": ")%x*TO4Sk.fZ/r,%_24@",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
                                     "type": "EventPlayer",
-                                    "id": "8{lDZTS2`Hm^4i@PLaun"
+                                    "id": "*`X|!v(%PgmTGaSrE[h:"
                                   }
                                 }
                               }
@@ -199,22 +201,22 @@
                           "VALUE-1": {
                             "block": {
                               "type": "Subtract",
-                              "id": "f9xC(mI1Ly)}_%~,ie[2",
+                              "id": "`UAnfpVI-QdNpCWI!o/P",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
                                     "type": "GetGamemodeScore",
-                                    "id": "|q3;n]xjhe*9txxiVq8:",
+                                    "id": "+Yn*V6l1kuzU/1O0G|JG",
                                     "inputs": {
                                       "VALUE-0": {
                                         "block": {
                                           "type": "GetTeamId",
-                                          "id": "hC]0!S?)8cl:pbv$_xXu",
+                                          "id": "*C-}[nE}#Ywu5(Nfj|[~",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "EventPlayer",
-                                                "id": "M:37SXt5?tRT9b4w*}RE"
+                                                "id": "nL6,dsO+hWQqr7H~OQO2"
                                               }
                                             }
                                           }
@@ -226,7 +228,7 @@
                                 "VALUE-1": {
                                   "block": {
                                     "type": "Number",
-                                    "id": "G[,C~*/N^4l%q/sg7NSf",
+                                    "id": "$fM4_h+=+3;a4H8gIgEd",
                                     "fields": {
                                       "NUM": 1
                                     }
@@ -247,11 +249,12 @@
       },
       {
         "type": "subroutineBlock",
-        "id": "hC:RCxluG+G0Jc7kU%:-",
-        "x": 2789,
-        "y": 288,
+        "id": "zP~cY(9c5:+s;a+Z18Fc",
+        "x": 1205,
+        "y": 102,
         "extraState": {
-          "subroutineName": "MapsSetups"
+          "subroutineName": "MapsSetups",
+          "parameters": []
         },
         "fields": {
           "SUBROUTINE_NAME": "MapsSetups"
@@ -260,18 +263,18 @@
           "ACTIONS": {
             "block": {
               "type": "If",
-              "id": "*3H.fql/SaEt2mbIjA|N",
+              "id": "~8w(H:TSq8p)f`o^_=P;",
               "extraState": {},
               "inputs": {
                 "VALUE-0": {
                   "block": {
                     "type": "IsCurrentMap",
-                    "id": "Lmm7Kny[OXg{%j]Wl#Si",
+                    "id": "KOMeyq]SQ^]8|dlJc#mt",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
                           "type": "MapsItem",
-                          "id": "}N_A;k4vI_F+t#Oz4!N4",
+                          "id": "N9T0UQYC!zYYH9`4y3]i",
                           "fields": {
                             "VALUE-0": "Maps",
                             "VALUE-1": "LightsOut"
@@ -284,9 +287,10 @@
                 "DO": {
                   "block": {
                     "type": "subroutineInstanceBlock",
-                    "id": "UUme/8(KM^I^e9S)sbfU",
+                    "id": "?@dpk0fK*/fz:+CwfLJ|",
                     "extraState": {
-                      "subroutineName": "Spearhead_Setup"
+                      "subroutineName": "Spearhead_Setup",
+                      "parameters": []
                     },
                     "fields": {
                       "SUBROUTINE_NAME": "Spearhead_Setup"
@@ -300,11 +304,12 @@
       },
       {
         "type": "subroutineBlock",
-        "id": "O|$~Q:4(mV@+No[czk}7",
-        "x": 4018,
-        "y": 303,
+        "id": "y+V~R=!rQ7%:o}8ZS.h!",
+        "x": 2434,
+        "y": 117,
         "extraState": {
-          "subroutineName": "Spearhead_Setup"
+          "subroutineName": "Spearhead_Setup",
+          "parameters": []
         },
         "fields": {
           "SUBROUTINE_NAME": "Spearhead_Setup"
@@ -313,17 +318,17 @@
           "ACTIONS": {
             "block": {
               "type": "EnableObjective",
-              "id": "RS^.*wU|ywKW%G5zOA3.",
+              "id": "NX])t17:3TqJuU(#eIbH",
               "inputs": {
                 "VALUE-0": {
                   "block": {
                     "type": "GetCapturePoint",
-                    "id": "UK*N]v+hT:DimI(:O6,W",
+                    "id": "(LCRCLe6i2+(we7WfIR1",
                     "inputs": {
                       "VALUE-0": {
                         "block": {
                           "type": "CapturePointsItem",
-                          "id": "JVw[Hf)F+kbfk0TNEfG!",
+                          "id": "kBDf/Cz5gO{QZZN38H2T",
                           "fields": {
                             "VALUE-0": "CapturePoints",
                             "VALUE-1": "A1"
@@ -336,7 +341,7 @@
                 "VALUE-1": {
                   "block": {
                     "type": "Boolean",
-                    "id": "/v)F~;$=slyYZ1qp:s4v",
+                    "id": "kxR-x[Yl`mg/R}rnob#/",
                     "fields": {
                       "BOOL": "TRUE"
                     }
@@ -346,17 +351,17 @@
               "next": {
                 "block": {
                   "type": "SetCapturePointOwner",
-                  "id": "A?#_#Nl5]yg)SM-W)#*]",
+                  "id": "jzG2nwX@KF[WAq=z[p]%",
                   "inputs": {
                     "VALUE-0": {
                       "block": {
                         "type": "GetCapturePoint",
-                        "id": "(ip:QpiZQ(_S{daY^szS",
+                        "id": "+2uiy.nLYwZL+kuhS`3O",
                         "inputs": {
                           "VALUE-0": {
                             "block": {
                               "type": "CapturePointsItem",
-                              "id": "cgSZ@h9anM@PZHEG8tgn",
+                              "id": "CNsU7{DVtDG.v`#y=1,/",
                               "fields": {
                                 "VALUE-0": "CapturePoints",
                                 "VALUE-1": "A1"
@@ -369,12 +374,12 @@
                     "VALUE-1": {
                       "block": {
                         "type": "GetTeamId",
-                        "id": "4XS-`VP,.M1*RgVr.X1#",
+                        "id": "6}XZhe5oX6fXB?voC*QF",
                         "inputs": {
                           "VALUE-0": {
                             "block": {
                               "type": "Number",
-                              "id": "h#]4L/}W{L]0nCS($(QJ",
+                              "id": "EBT*x%!OX8W8Uql^JkbS",
                               "fields": {
                                 "NUM": 1
                               }
@@ -387,17 +392,17 @@
                   "next": {
                     "block": {
                       "type": "EnableObjective",
-                      "id": "`SUp8S}e$]lt_!UztDWw",
+                      "id": "a^qh%HOc_D{;H_y/gbeH",
                       "inputs": {
                         "VALUE-0": {
                           "block": {
                             "type": "GetCapturePoint",
-                            "id": "*1z#U$MlZ~)YIKRu~y.i",
+                            "id": "t/t.B`wRO9)}d~jZu.Hw",
                             "inputs": {
                               "VALUE-0": {
                                 "block": {
                                   "type": "CapturePointsItem",
-                                  "id": "R3vsBmbuB1;i[cS!M^}2",
+                                  "id": "^!4,b;Jiko$Si2_D1cD0",
                                   "fields": {
                                     "VALUE-0": "CapturePoints",
                                     "VALUE-1": "B1"
@@ -410,7 +415,7 @@
                         "VALUE-1": {
                           "block": {
                             "type": "Boolean",
-                            "id": "A0S~vl}$aM1jnT~~/xM@",
+                            "id": ",#03,g~_{2TUIw%0!+,8",
                             "fields": {
                               "BOOL": "FALSE"
                             }
@@ -420,17 +425,17 @@
                       "next": {
                         "block": {
                           "type": "EnableObjective",
-                          "id": "kp-R0{$vk=%*p1f{Cx4-",
+                          "id": ".i]g?eHwK2=c*@y)yRJH",
                           "inputs": {
                             "VALUE-0": {
                               "block": {
                                 "type": "GetCapturePoint",
-                                "id": "*H{(tEH6)$lG?N^3S+dE",
+                                "id": "`LTiVS6]?Z!-%W@ytX7i",
                                 "inputs": {
                                   "VALUE-0": {
                                     "block": {
                                       "type": "CapturePointsItem",
-                                      "id": "vt[?u[#xIt({0cEx[QI@",
+                                      "id": "*)r%ruHfJ*J4(x5j7tcm",
                                       "fields": {
                                         "VALUE-0": "CapturePoints",
                                         "VALUE-1": "C1"
@@ -443,7 +448,7 @@
                             "VALUE-1": {
                               "block": {
                                 "type": "Boolean",
-                                "id": "([VbfHiR*NmP0JGCDD7L",
+                                "id": "uY*p=U^m9JN}c1G:Nu:;",
                                 "fields": {
                                   "BOOL": "TRUE"
                                 }
@@ -453,17 +458,17 @@
                           "next": {
                             "block": {
                               "type": "EnableObjective",
-                              "id": "3ycN:{Qr@ecU,egh`Br}",
+                              "id": "AiaN(t(F}+h!1Q}7g@5@",
                               "inputs": {
                                 "VALUE-0": {
                                   "block": {
                                     "type": "GetCapturePoint",
-                                    "id": "$^*UXQyC/$G#G(8u#uqV",
+                                    "id": "cxVTGc03F|Zi:[Eu`2eV",
                                     "inputs": {
                                       "VALUE-0": {
                                         "block": {
                                           "type": "CapturePointsItem",
-                                          "id": "I-q(bBzFbZ_HBwvdur}q",
+                                          "id": "xZ%*=lFc~G!~~x3}FEGF",
                                           "fields": {
                                             "VALUE-0": "CapturePoints",
                                             "VALUE-1": "C2"
@@ -476,7 +481,7 @@
                                 "VALUE-1": {
                                   "block": {
                                     "type": "Boolean",
-                                    "id": "b=$h#5r*;3]V{0xBvRB}",
+                                    "id": "(DW@E*x}%~}lt}5Q.6?o",
                                     "fields": {
                                       "BOOL": "TRUE"
                                     }
@@ -486,17 +491,17 @@
                               "next": {
                                 "block": {
                                   "type": "EnableObjective",
-                                  "id": ")HvcBM/K[Ij5tXqo4e*o",
+                                  "id": "jm;fuq/?b389]y=]m8Z]",
                                   "inputs": {
                                     "VALUE-0": {
                                       "block": {
                                         "type": "GetCapturePoint",
-                                        "id": ";U;tF3xJJ*~E60_Xb[m9",
+                                        "id": "kCWDG.tDAM:s6Lw20o{N",
                                         "inputs": {
                                           "VALUE-0": {
                                             "block": {
                                               "type": "CapturePointsItem",
-                                              "id": "f+R5$3a1ksWA^#`FSAXK",
+                                              "id": "4-4:s`}]/+v9vK$8-0l$",
                                               "fields": {
                                                 "VALUE-0": "CapturePoints",
                                                 "VALUE-1": "D1"
@@ -509,7 +514,7 @@
                                     "VALUE-1": {
                                       "block": {
                                         "type": "Boolean",
-                                        "id": "x3^ejOzC1}t=aXi$GsX0",
+                                        "id": "]yKfIzehp_X%*jA{8WHL",
                                         "fields": {
                                           "BOOL": "FALSE"
                                         }
@@ -519,17 +524,17 @@
                                   "next": {
                                     "block": {
                                       "type": "EnableObjective",
-                                      "id": "iE%%VW)/!#E%%ssr}Z^G",
+                                      "id": "e!:YY:PS-g2W7^Y$g1m+",
                                       "inputs": {
                                         "VALUE-0": {
                                           "block": {
                                             "type": "GetCapturePoint",
-                                            "id": "2s-oHV+;PyxUB!jT`^n)",
+                                            "id": "[y{4:l}og1}@g]+q(gE}",
                                             "inputs": {
                                               "VALUE-0": {
                                                 "block": {
                                                   "type": "CapturePointsItem",
-                                                  "id": "ciiA0AQc{H_kK5V@COsB",
+                                                  "id": "{V|8$hz8O]`*nX2O6-#d",
                                                   "fields": {
                                                     "VALUE-0": "CapturePoints",
                                                     "VALUE-1": "E2"
@@ -542,7 +547,7 @@
                                         "VALUE-1": {
                                           "block": {
                                             "type": "Boolean",
-                                            "id": "TJOrm}qH:IZ%]^Q4Ly.B",
+                                            "id": "g(5Q.CAj+QC.2qG:Iusq",
                                             "fields": {
                                               "BOOL": "TRUE"
                                             }
@@ -552,17 +557,17 @@
                                       "next": {
                                         "block": {
                                           "type": "SetCapturePointOwner",
-                                          "id": "aCiD)X:|@a%kSpUM4b7#",
+                                          "id": "Vacv]*Gb{S[87Xse:P3)",
                                           "inputs": {
                                             "VALUE-0": {
                                               "block": {
                                                 "type": "GetCapturePoint",
-                                                "id": "!7T`FGe5*5@/pSW}56*O",
+                                                "id": "S68(5*$A(w:`]ozTV(Au",
                                                 "inputs": {
                                                   "VALUE-0": {
                                                     "block": {
                                                       "type": "CapturePointsItem",
-                                                      "id": "qn^HGQJ$?*1w@f`EAeVF",
+                                                      "id": "@n3DPp0?Fx#Y0)fXErVa",
                                                       "fields": {
                                                         "VALUE-0": "CapturePoints",
                                                         "VALUE-1": "E2"
@@ -575,12 +580,12 @@
                                             "VALUE-1": {
                                               "block": {
                                                 "type": "GetTeamId",
-                                                "id": "g8x00k}Lejan6azm5R#C",
+                                                "id": "@H9J},WzLpP7@:LVB;sj",
                                                 "inputs": {
                                                   "VALUE-0": {
                                                     "block": {
                                                       "type": "Number",
-                                                      "id": "|1E,1AtCF2`nq;U8J#^-",
+                                                      "id": "qdC0mTb%{y?uz#gHy*rb",
                                                       "fields": {
                                                         "NUM": 2
                                                       }
@@ -610,38 +615,32 @@
       },
       {
         "type": "subroutineBlock",
-        "id": "DHh,IU4E1Z]w%d8e(s4Q",
-        "x": 5298,
-        "y": 416,
+        "id": "?*c7:=9/jvTNc3c/RK|Y",
+        "x": 3714,
+        "y": 230,
         "extraState": {
-          "subroutineName": "Flag_Effects"
+          "subroutineName": "Flag_Effects",
+          "parameters": []
         },
         "fields": {
           "SUBROUTINE_NAME": "Flag_Effects"
         }
       },
       {
-        "type": "If",
-        "id": "E|rRnj^4:74Vj_Zp?E]G",
-        "x": 5888,
-        "y": 420,
-        "extraState": {}
-      },
-      {
         "type": "GetCurrentOwnerTeamID",
-        "id": "/|R5Tibop6@XVDi?j36v",
-        "x": 5551,
-        "y": 750,
+        "id": "2{8HO6%j(pL~Y}$$_Tau",
+        "x": 3967,
+        "y": 564,
         "inputs": {
           "VALUE-0": {
             "block": {
               "type": "GetCapturePoint",
-              "id": "?,~b]}3u7)o^8[r0brkA",
+              "id": "]S1EU5ZnA=!mD^ek.b?l",
               "inputs": {
                 "VALUE-0": {
                   "block": {
                     "type": "CapturePointsItem",
-                    "id": "FD31%_zPmgU$J|yX*pGu",
+                    "id": "dp[u%|8pQ8o}i(l/#H=h",
                     "fields": {
                       "VALUE-0": "CapturePoints",
                       "VALUE-1": "C1"
@@ -652,29 +651,14 @@
             }
           }
         }
+      },
+      {
+        "type": "If",
+        "id": "ioRc67Zd;lDOV0RyA$A`",
+        "x": 4304,
+        "y": 234,
+        "extraState": {}
       }
     ]
-  },
-  "variables": [
-    {
-      "name": "Team_Switch_Enabled",
-      "id": "v=]npzSRu_p7}]twKaK6",
-      "type": "Player"
-    },
-    {
-      "name": "yaw",
-      "id": "l[6$~,V,#vtToN+qUe+L",
-      "type": "Player"
-    },
-    {
-      "name": "GameModeStarted",
-      "id": "T-]yETJ.fXjhx?[V+g-M",
-      "type": "Global"
-    },
-    {
-      "name": "Counter",
-      "id": "_|Y(f)7CzUgE-K2-nz{K",
-      "type": "Global"
-    }
-  ]
+  }
 }
