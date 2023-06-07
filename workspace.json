@@ -140,19 +140,6 @@
                                         },
                                         "fields": {
                                           "SUBROUTINE_NAME": "MapsSetups"
-                                        },
-                                        "next": {
-                                          "block": {
-                                            "type": "subroutineInstanceBlock",
-                                            "id": "yyV_(?^hX`=g@OBtrea3",
-                                            "extraState": {
-                                              "subroutineName": "Flag_Effects",
-                                              "parameters": []
-                                            },
-                                            "fields": {
-                                              "SUBROUTINE_NAME": "Flag_Effects"
-                                            }
-                                          }
                                         }
                                       }
                                     }
@@ -175,7 +162,7 @@
                     "isOngoingEvent": false
                   },
                   "fields": {
-                    "NAME": "Plastic consumption",
+                    "NAME": "Resource consumption",
                     "EVENTTYPE": "OnPlayerDeployed"
                   },
                   "inputs": {
@@ -235,6 +222,34 @@
                                   }
                                 }
                               }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "ruleBlock",
+                      "id": "zzxb.e69vd+7aLCu/#MD",
+                      "extraState": {
+                        "isOngoingEvent": false
+                      },
+                      "fields": {
+                        "NAME": "flag effect",
+                        "EVENTTYPE": "OnCapturePointCaptured"
+                      },
+                      "inputs": {
+                        "ACTIONS": {
+                          "block": {
+                            "type": "subroutineInstanceBlock",
+                            "id": "yyV_(?^hX`=g@OBtrea3",
+                            "extraState": {
+                              "subroutineName": "Flag_Effects",
+                              "parameters": []
+                            },
+                            "fields": {
+                              "SUBROUTINE_NAME": "Flag_Effects"
                             }
                           }
                         }
@@ -616,35 +631,173 @@
       {
         "type": "subroutineBlock",
         "id": "?*c7:=9/jvTNc3c/RK|Y",
-        "x": 3714,
-        "y": 230,
+        "x": 3684,
+        "y": 45,
         "extraState": {
           "subroutineName": "Flag_Effects",
           "parameters": []
         },
         "fields": {
           "SUBROUTINE_NAME": "Flag_Effects"
-        }
-      },
-      {
-        "type": "GetCurrentOwnerTeamID",
-        "id": "2{8HO6%j(pL~Y}$$_Tau",
-        "x": 3967,
-        "y": 564,
+        },
         "inputs": {
-          "VALUE-0": {
+          "ACTIONS": {
             "block": {
-              "type": "GetCapturePoint",
-              "id": "]S1EU5ZnA=!mD^ek.b?l",
+              "type": "If",
+              "id": "ioRc67Zd;lDOV0RyA$A`",
+              "extraState": {
+                "elseif": 0,
+                "else": 1
+              },
               "inputs": {
                 "VALUE-0": {
                   "block": {
-                    "type": "CapturePointsItem",
-                    "id": "dp[u%|8pQ8o}i(l/#H=h",
-                    "fields": {
-                      "VALUE-0": "CapturePoints",
-                      "VALUE-1": "C1"
+                    "type": "Equals",
+                    "id": "];XnfZig52g=P;kWSx5!",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetCurrentOwnerTeamID",
+                          "id": "2{8HO6%j(pL~Y}$$_Tau",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "GetCapturePoint",
+                                "id": "]S1EU5ZnA=!mD^ek.b?l",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "CapturePointsItem",
+                                      "id": "dp[u%|8pQ8o}i(l/#H=h",
+                                      "fields": {
+                                        "VALUE-0": "CapturePoints",
+                                        "VALUE-1": "C1"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "Number",
+                          "id": "ReFdzWiq6wa?PN)mD9)a",
+                          "fields": {
+                            "NUM": 1
+                          }
+                        }
+                      }
                     }
+                  }
+                },
+                "DO": {
+                  "block": {
+                    "type": "ForVariable",
+                    "id": ";deD~p7~XGVmbuw|_BBg",
+                    "inputs": {
+                      "VALUE-3": {
+                        "block": {
+                          "type": "Number",
+                          "id": "|(N8^u;0IL)p_=RfD3-U",
+                          "fields": {
+                            "NUM": 1
+                          }
+                        }
+                      },
+                      "DO": {
+                        "block": {
+                          "type": "Wait",
+                          "id": "8wYlPFR;tN}TWloSeoXM",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Number",
+                                "id": "t?ax;_WJTc3xoBbux{QX",
+                                "fields": {
+                                  "NUM": 5
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "SetGamemodeScore",
+                              "id": "$MlVljNu#@x4$?Lpg,tV",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "GetTeamId",
+                                    "id": "~.#e:c0=euhH_^CBmr,C",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "Number",
+                                          "id": "COvrSf}X$.k6Zl2u_UpT",
+                                          "fields": {
+                                            "NUM": 1
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "Add",
+                                    "id": "9:R^z_eEk`,iT6[zjqbW",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "GetGamemodeScore",
+                                          "id": "_6@B/B^isV3[A^)rBr7r",
+                                          "inputs": {
+                                            "VALUE-0": {
+                                              "block": {
+                                                "type": "GetTeamId",
+                                                "id": "Q!l$!U=i2B$`.yO`qjk/",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "Number",
+                                                      "id": "JeO(~3c^/s!A?jv=hOF#",
+                                                      "fields": {
+                                                        "NUM": 1
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "Number",
+                                          "id": "N/mxI1Xcl_bV+lY[=X@_",
+                                          "fields": {
+                                            "NUM": 100
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "ELSE": {
+                  "block": {
+                    "type": "Break",
+                    "id": "(t|pRq6B=*R:8gmsAA89"
                   }
                 }
               }
@@ -653,11 +806,35 @@
         }
       },
       {
-        "type": "If",
-        "id": "ioRc67Zd;lDOV0RyA$A`",
-        "x": 4304,
-        "y": 234,
-        "extraState": {}
+        "type": "conditionBlock",
+        "id": "E*RIPsen[1CsECTpSzvE",
+        "x": 4097,
+        "y": 66,
+        "inputs": {
+          "CONDITION": {
+            "block": {
+              "type": "Equals",
+              "id": "~qf[fQIG,0t?{Kc{o6P.",
+              "inputs": {
+                "VALUE-0": {
+                  "block": {
+                    "type": "EventCapturePoint",
+                    "id": "VZG*L+udWbJaq2[9Y1S)"
+                  }
+                },
+                "VALUE-1": {
+                  "block": {
+                    "type": "Boolean",
+                    "id": "hY:HWCn$P:J}lKT/NY_!",
+                    "fields": {
+                      "BOOL": "TRUE"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     ]
   }
