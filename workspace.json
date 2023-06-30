@@ -1321,23 +1321,23 @@
                                                 "next": {
                                                   "block": {
                                                     "type": "If",
-                                                    "id": "?wR%-tb[x,5jMvCXu]zl",
+                                                    "id": ")B^bgCc,M|bdfZ$_Y|nu",
                                                     "extraState": {},
                                                     "inputs": {
                                                       "VALUE-0": {
                                                         "block": {
                                                           "type": "CompareVehicleName",
-                                                          "id": "/beX|+PYWf:*Wg.fjO~Z",
+                                                          "id": "13L8Npe3I1cn;4/?%U:5",
                                                           "inputs": {
                                                             "VALUE-0": {
                                                               "block": {
                                                                 "type": "GetVariable",
-                                                                "id": "[oa9Gkm*(*504LG_]jW{",
+                                                                "id": "J8wQbExF3v$ZQs1iR71L",
                                                                 "inputs": {
                                                                   "VALUE-0": {
                                                                     "block": {
                                                                       "type": "variableReferenceBlock",
-                                                                      "id": "zp?6E~RP@Chtsx3FVk:{",
+                                                                      "id": "H?rg8R4RizI]cT?E-(R,",
                                                                       "extraState": {
                                                                         "isObjectVar": true
                                                                       },
@@ -1351,7 +1351,7 @@
                                                                         "OBJECT": {
                                                                           "block": {
                                                                             "type": "EventPlayer",
-                                                                            "id": "Ne}G1evGmp_6E,V1A@)K"
+                                                                            "id": "5/[L|t|24(ygwc2#XM=*"
                                                                           }
                                                                         }
                                                                       }
@@ -1363,10 +1363,10 @@
                                                             "VALUE-1": {
                                                               "block": {
                                                                 "type": "VehicleTypesItem",
-                                                                "id": ".?~A`VWO}rrV3C`_+uXJ",
+                                                                "id": "$/;erDA:9aDnf)jH!.Fa",
                                                                 "fields": {
                                                                   "VALUE-0": "VehicleTypes",
-                                                                  "VALUE-1": "Heavy"
+                                                                  "VALUE-1": "Airplane"
                                                                 }
                                                               }
                                                             }
@@ -1376,7 +1376,7 @@
                                                       "DO": {
                                                         "block": {
                                                           "type": "subroutineInstanceBlock",
-                                                          "id": "O}Epf!k(o@[!Q{,Yqi}_",
+                                                          "id": "LW#keqN#mSU7:XQ)NuFQ",
                                                           "extraState": {
                                                             "subroutineName": "Vehicle_Spawn",
                                                             "parameters": [
@@ -1393,9 +1393,9 @@
                                                             "PARAM-0": {
                                                               "block": {
                                                                 "type": "Number",
-                                                                "id": "T_!1A$UF@-216/;xZBW.",
+                                                                "id": "Ypv{$)#HZu:)rlp$72[f",
                                                                 "fields": {
-                                                                  "NUM": 100
+                                                                  "NUM": 125
                                                                 }
                                                               }
                                                             }
@@ -1406,23 +1406,23 @@
                                                     "next": {
                                                       "block": {
                                                         "type": "If",
-                                                        "id": "urhd_kX0bNH7dAy%+rj_",
+                                                        "id": "?wR%-tb[x,5jMvCXu]zl",
                                                         "extraState": {},
                                                         "inputs": {
                                                           "VALUE-0": {
                                                             "block": {
                                                               "type": "CompareVehicleName",
-                                                              "id": "E5!Nka-@YMVu@-.cxtnl",
+                                                              "id": "/beX|+PYWf:*Wg.fjO~Z",
                                                               "inputs": {
                                                                 "VALUE-0": {
                                                                   "block": {
                                                                     "type": "GetVariable",
-                                                                    "id": "UkG:SCT/h6r#*/l:(SfS",
+                                                                    "id": "[oa9Gkm*(*504LG_]jW{",
                                                                     "inputs": {
                                                                       "VALUE-0": {
                                                                         "block": {
                                                                           "type": "variableReferenceBlock",
-                                                                          "id": ",3AFZbev0g}1~_qq2TLJ",
+                                                                          "id": "zp?6E~RP@Chtsx3FVk:{",
                                                                           "extraState": {
                                                                             "isObjectVar": true
                                                                           },
@@ -1436,7 +1436,7 @@
                                                                             "OBJECT": {
                                                                               "block": {
                                                                                 "type": "EventPlayer",
-                                                                                "id": "}Dv*rr21RALtsA}6=05b"
+                                                                                "id": "Ne}G1evGmp_6E,V1A@)K"
                                                                               }
                                                                             }
                                                                           }
@@ -1448,10 +1448,10 @@
                                                                 "VALUE-1": {
                                                                   "block": {
                                                                     "type": "VehicleTypesItem",
-                                                                    "id": "w(dglKWH7RMmAf9^r2S-",
+                                                                    "id": ".?~A`VWO}rrV3C`_+uXJ",
                                                                     "fields": {
                                                                       "VALUE-0": "VehicleTypes",
-                                                                      "VALUE-1": "Medium"
+                                                                      "VALUE-1": "Heavy"
                                                                     }
                                                                   }
                                                                 }
@@ -1461,7 +1461,7 @@
                                                           "DO": {
                                                             "block": {
                                                               "type": "subroutineInstanceBlock",
-                                                              "id": "*#gD/ukuwRdVk7XTgzdn",
+                                                              "id": "O}Epf!k(o@[!Q{,Yqi}_",
                                                               "extraState": {
                                                                 "subroutineName": "Vehicle_Spawn",
                                                                 "parameters": [
@@ -1478,9 +1478,9 @@
                                                                 "PARAM-0": {
                                                                   "block": {
                                                                     "type": "Number",
-                                                                    "id": "ilgGi^Y9bW=x*Pn-v#tU",
+                                                                    "id": "T_!1A$UF@-216/;xZBW.",
                                                                     "fields": {
-                                                                      "NUM": 75
+                                                                      "NUM": 100
                                                                     }
                                                                   }
                                                                 }
@@ -1491,23 +1491,23 @@
                                                         "next": {
                                                           "block": {
                                                             "type": "If",
-                                                            "id": "[A`lzOy]xr]Pk6}4(TF5",
+                                                            "id": "urhd_kX0bNH7dAy%+rj_",
                                                             "extraState": {},
                                                             "inputs": {
                                                               "VALUE-0": {
                                                                 "block": {
                                                                   "type": "CompareVehicleName",
-                                                                  "id": "[F:2sM!1XxVz{UnJB~{z",
+                                                                  "id": "E5!Nka-@YMVu@-.cxtnl",
                                                                   "inputs": {
                                                                     "VALUE-0": {
                                                                       "block": {
                                                                         "type": "GetVariable",
-                                                                        "id": "5Pyf?hzA[o/?lx;hx_PI",
+                                                                        "id": "UkG:SCT/h6r#*/l:(SfS",
                                                                         "inputs": {
                                                                           "VALUE-0": {
                                                                             "block": {
                                                                               "type": "variableReferenceBlock",
-                                                                              "id": "k[cxvhU?qHVxVDU45{c3",
+                                                                              "id": ",3AFZbev0g}1~_qq2TLJ",
                                                                               "extraState": {
                                                                                 "isObjectVar": true
                                                                               },
@@ -1521,7 +1521,7 @@
                                                                                 "OBJECT": {
                                                                                   "block": {
                                                                                     "type": "EventPlayer",
-                                                                                    "id": "^$9@Ohd.8$w^L}P5.3GJ"
+                                                                                    "id": "}Dv*rr21RALtsA}6=05b"
                                                                                   }
                                                                                 }
                                                                               }
@@ -1533,10 +1533,10 @@
                                                                     "VALUE-1": {
                                                                       "block": {
                                                                         "type": "VehicleTypesItem",
-                                                                        "id": "0`-89k~[2hEqZaRudj/3",
+                                                                        "id": "w(dglKWH7RMmAf9^r2S-",
                                                                         "fields": {
                                                                           "VALUE-0": "VehicleTypes",
-                                                                          "VALUE-1": "Light"
+                                                                          "VALUE-1": "Medium"
                                                                         }
                                                                       }
                                                                     }
@@ -1546,7 +1546,7 @@
                                                               "DO": {
                                                                 "block": {
                                                                   "type": "subroutineInstanceBlock",
-                                                                  "id": "F%~q]U#nT8gpGr/.cC+3",
+                                                                  "id": "*#gD/ukuwRdVk7XTgzdn",
                                                                   "extraState": {
                                                                     "subroutineName": "Vehicle_Spawn",
                                                                     "parameters": [
@@ -1563,9 +1563,96 @@
                                                                     "PARAM-0": {
                                                                       "block": {
                                                                         "type": "Number",
-                                                                        "id": "bpS0T[ye#o3|:TMCxV#n",
+                                                                        "id": "ilgGi^Y9bW=x*Pn-v#tU",
                                                                         "fields": {
-                                                                          "NUM": 50
+                                                                          "NUM": 75
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "next": {
+                                                              "block": {
+                                                                "type": "If",
+                                                                "id": "[A`lzOy]xr]Pk6}4(TF5",
+                                                                "extraState": {},
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "CompareVehicleName",
+                                                                      "id": "[F:2sM!1XxVz{UnJB~{z",
+                                                                      "inputs": {
+                                                                        "VALUE-0": {
+                                                                          "block": {
+                                                                            "type": "GetVariable",
+                                                                            "id": "5Pyf?hzA[o/?lx;hx_PI",
+                                                                            "inputs": {
+                                                                              "VALUE-0": {
+                                                                                "block": {
+                                                                                  "type": "variableReferenceBlock",
+                                                                                  "id": "k[cxvhU?qHVxVDU45{c3",
+                                                                                  "extraState": {
+                                                                                    "isObjectVar": true
+                                                                                  },
+                                                                                  "fields": {
+                                                                                    "OBJECTTYPE": "Player",
+                                                                                    "VAR": {
+                                                                                      "id": "#Rp;D5DuI;[}nIWe?/3J"
+                                                                                    }
+                                                                                  },
+                                                                                  "inputs": {
+                                                                                    "OBJECT": {
+                                                                                      "block": {
+                                                                                        "type": "EventPlayer",
+                                                                                        "id": "^$9@Ohd.8$w^L}P5.3GJ"
+                                                                                      }
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        },
+                                                                        "VALUE-1": {
+                                                                          "block": {
+                                                                            "type": "VehicleTypesItem",
+                                                                            "id": "0`-89k~[2hEqZaRudj/3",
+                                                                            "fields": {
+                                                                              "VALUE-0": "VehicleTypes",
+                                                                              "VALUE-1": "Light"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "DO": {
+                                                                    "block": {
+                                                                      "type": "subroutineInstanceBlock",
+                                                                      "id": "F%~q]U#nT8gpGr/.cC+3",
+                                                                      "extraState": {
+                                                                        "subroutineName": "Vehicle_Spawn",
+                                                                        "parameters": [
+                                                                          {
+                                                                            "types": "Number",
+                                                                            "name": "Cost"
+                                                                          }
+                                                                        ]
+                                                                      },
+                                                                      "fields": {
+                                                                        "SUBROUTINE_NAME": "Vehicle_Spawn"
+                                                                      },
+                                                                      "inputs": {
+                                                                        "PARAM-0": {
+                                                                          "block": {
+                                                                            "type": "Number",
+                                                                            "id": "bpS0T[ye#o3|:TMCxV#n",
+                                                                            "fields": {
+                                                                              "NUM": 50
+                                                                            }
+                                                                          }
                                                                         }
                                                                       }
                                                                     }
@@ -2813,7 +2900,7 @@
                                                                     "type": "Text",
                                                                     "id": "7wMV(?LGb8g3-7N9g@n$",
                                                                     "fields": {
-                                                                      "TEXT": "Air - 150   .    Tank - 100   "
+                                                                      "TEXT": "Heli - 150   .   Plane - 125   .   Tank - 100   "
                                                                     }
                                                                   }
                                                                 }
@@ -2861,7 +2948,7 @@
                                                                         "type": "Text",
                                                                         "id": "6,)95?IzKxHT1(.cXj92",
                                                                         "fields": {
-                                                                          "TEXT": "LAV - 75    .    Car - 50"
+                                                                          "TEXT": "Transport - 75    .    Car - 50"
                                                                         }
                                                                       }
                                                                     }
@@ -3606,7 +3693,7 @@
                                 "id": "{Sro0h|Cj]uU^0cKX}H7",
                                 "fields": {
                                   "VALUE-0": "WorldIconImages",
-                                  "VALUE-1": "Triangle"
+                                  "VALUE-1": "Flag"
                                 }
                               }
                             }
@@ -3997,7 +4084,7 @@
                                         "type": "Text",
                                         "id": "LW2$,_*K[cc,P-.^%im.",
                                         "fields": {
-                                          "TEXT": "NOT ENOUGH POINTS"
+                                          "TEXT": "NOT ENOUGH RESOURCES"
                                         }
                                       }
                                     }
