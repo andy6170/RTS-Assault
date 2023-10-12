@@ -123,7 +123,7 @@
                                           "type": "Number",
                                           "id": "c[6GNbQCgE5}|(htIWT!",
                                           "fields": {
-                                            "NUM": 500
+                                            "NUM": 1000
                                           }
                                         }
                                       }
@@ -155,7 +155,7 @@
                                               "type": "Number",
                                               "id": "t8*W1DI_:CF)Xll~B=u}",
                                               "fields": {
-                                                "NUM": 500
+                                                "NUM": 1000
                                               }
                                             }
                                           }
@@ -988,7 +988,7 @@
                                                   "type": "Number",
                                                   "id": "?GS=JgZ,WOdMHL]$]B$J",
                                                   "fields": {
-                                                    "NUM": 5
+                                                    "NUM": 50
                                                   }
                                                 }
                                               }
@@ -1052,7 +1052,7 @@
                                               "type": "Number",
                                               "id": "]UNNA!%+I76jibo`d+S^",
                                               "fields": {
-                                                "NUM": 10
+                                                "NUM": 45
                                               }
                                             }
                                           },
@@ -1650,7 +1650,7 @@
                                                                             "type": "Number",
                                                                             "id": "bpS0T[ye#o3|:TMCxV#n",
                                                                             "fields": {
-                                                                              "NUM": 50
+                                                                              "NUM": 35
                                                                             }
                                                                           }
                                                                         }
