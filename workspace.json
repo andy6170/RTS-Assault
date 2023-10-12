@@ -2900,7 +2900,7 @@
                                                                     "type": "Text",
                                                                     "id": "7wMV(?LGb8g3-7N9g@n$",
                                                                     "fields": {
-                                                                      "TEXT": "Heli - 150   .   Plane - 125   .   Tank - 100   "
+                                                                      "TEXT": "Heli - 150   .   Plane - 125   .   Heavy Tank - 100   "
                                                                     }
                                                                   }
                                                                 }
@@ -2948,7 +2948,7 @@
                                                                         "type": "Text",
                                                                         "id": "6,)95?IzKxHT1(.cXj92",
                                                                         "fields": {
-                                                                          "TEXT": "Transport - 75    .    Car - 50"
+                                                                          "TEXT": "Transport / Medium Tank - 75    .    Car - 50"
                                                                         }
                                                                       }
                                                                     }
